@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a,
+li {
+  text-decoration: none;
+}
+/* ul.reset,
+ul.reset li,
+ul.reset ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+} */
+/* FIN RESET CSS */
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logop {
+  size: 100px;
+  height: 50px;
+}
+
+.iconav{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+form {
+  background-color: #78b8dd;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  /* border: 2px solid white; */
+  /* border-radius: 50px; */
+}
+.form1 {
+  border: none;
+  background-color: transparent;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.usepan {
+  width: 42px;
+  height: 42px;
+}
+
+
+select{
+    border: none;
+    text-transform: none;
+    color: white;
+    background-color: inherit;
+    width: 50px;
+}
+.selection{
+    -webkit-appearance:none;
+}
+
+
+
+
+.navtete{
+    background-color: #e5f6fe;
+
+}
+.ajoutcouleur{
+    color: #3b7190;  
+}
+
+
+/* section {
+  height: 50rem;
+
+} */
+
+footer {
+
+  background-image: url(../images/footer.jpg);
+  background-size: cover;
+}
+
+section > div > ul > li > a {
+    color: #286386;
+}
+
+#hr{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #286386;
+}
+
+tr{
+  border: 2px black solid ;
+
+}
+
+
+.bouton2,.bouton1{
+  width: 260px;
+  border: none;
+}
+.bouton1{
+  background-color: #286386;
+  color: white;
+}
+.bouton2{
+  background-color: white; 
+  color: #286386 ;
+}
+/* .bouton1:hover{
+  background-color: white; 
+  color: #286386 ;
+}
+.bouton2:hover{
+  background-color: #286386;
+  color: white;
+} */
+
+.hr{
+border-bottom: 8px dotted grey;
+}
+
+.texte1{
+  font-size: 13px;
+}
+.entrediv{
+  margin-bottom: 5rem;
+}
+
+/* @media only screen and(max-width: 760px) {
+  .usepan{
+    width: 20px;
+    height: 20px;
+  }
+
+} */

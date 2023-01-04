@@ -1,0 +1,21 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url('./images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header > div > nav {
+    color: #3b7190;
+    background-color: #e5f6fe;
+}
